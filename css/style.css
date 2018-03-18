@@ -2,9 +2,14 @@ body {
   background-color: white;
 }
 
+section {
+  margin-bottom: 30px;
+}
+
 nav {
   background-color: #dee;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .nav-logo {
@@ -21,4 +26,23 @@ nav ul li {
   position: relative;
   top: -40px;
 }
+
+.middle-sub-banner {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+
+.section-banner-image {
+  display: inline-block;
+  padding-right: 1.5em;
+}
+
+.section-text-button {
+  display: inline-block;
+  line-height: 1.6;
+  width: 40%; 
+}
+
+
+
 
