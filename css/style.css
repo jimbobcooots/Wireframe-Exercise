@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-family: sans-serif;
 }
 
 section {
@@ -38,9 +39,33 @@ nav ul li {
 }
 
 .section-text-button {
+  bottom: 20px;
   display: inline-block;
   line-height: 1.6;
-  width: 40%; 
+  position: relative;
+  width: 45%;
+}
+
+.section-text-button h1 {
+  font-size: 20px;
+  font-weight: 500; /* this is a changeable weight option */
+}
+
+.section-text-button p {
+  height: 200px;
+  overflow-y: scroll;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+.call-to-action {
+  border-radius: 12px;
+  font-size: 14px;
+  height: 50px;
+  width: 225px;
 }
 
 
